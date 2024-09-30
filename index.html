@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f16749327e.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="music-player">
+
+            <nav>
+
+                <div class="circular">
+                    <i class="fa-solid fa-angle-left"></i>
+                </div>
+                <div class="circular">
+                    <i class="fa-solid fa-bars-staggered"></i>
+                </div>
+                
+            </nav>
+            <img src="Images/Hanumankind_img.png" alt="" class="song-img">
+            <h1>Big dwags</h1>
+            <p>Hanumankind</p>
+
+            <audio id="songs"> 
+                <source src="songs/spotifydown.com - Big Dawgs.mp3" type="audio/mpeg">
+            </audio>
+            <!-- <label for="progress" style="color: white;">Progress:</label> -->
+            <input type="range" value="0" id="progress">
+
+            <div class="controls">
+                <div><i class="fa-solid fa-backward icon"></i></div>
+                <div>
+                    <i class="fa-solid fa-play icon" id="ctrlIcon"></i>
+                </div>
+                <div><i class="fa-solid fa-forward icon" ></i></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
