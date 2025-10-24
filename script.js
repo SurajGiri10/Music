@@ -38,7 +38,7 @@
 
 
 
-// chat gpt code 
+// this is updated version 
 
 let progress = document.getElementById('progress');
 let song = document.getElementById('songs');
@@ -80,3 +80,5 @@ progress.onchange = function() {
         progress.value = song.currentTime;
     }, 500);
 };
+
+
